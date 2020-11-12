@@ -140,15 +140,20 @@
 			
 		
 		
-			<form action="https://formspree.io/hasanrajib5812@gmail" method="POST"> 
-				<div class="contact-from"> 
-					<div class="inputTag"><input type="text" placeholder="Your Name *"rquired /></div>
-					<div class="inputTag"><input type="email" placeholder="Your Email Id" /></div>
-					<div class="inputTag"><input type="text" placeholder="Your subject" /></div>
-					<div class="inputTag"><textarea name="" id="" cols="50" rows="20"></textarea></div>
-					<div class="inputTag"><button class="submit">Submit</button></div>
-				</div>
-			</form>
+			<div class="showcase-form card"> 
+				<h2>Request a Demo</h2>
+				 <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/hasanrajib5812@gmail.com" method="post">
+				<fieldset id="fs-frm-inputs">
+				  <label for="full-name">Full Name</label>
+				  <input type="text" name="name" id="full-name" placeholder="Michael Bubbly" required="">
+				  <label for="email-address">Email Address</label>
+				  <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+				  <label for="message">Message</label>
+				  <textarea rows="5" name="message" id="message" placeholder="What's the fizz?" required=""></textarea>
+				  <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+					</fieldset>
+					<input type="submit" value="Submit">
+				</form>
 		</div>
 		
 	</header>
